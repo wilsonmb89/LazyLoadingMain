@@ -1,0 +1,18 @@
+#ppal-container {
+    button {
+        background-color: #3A5890;
+        color: #FFFFFF;
+        font-size: 17px;
+        font-weight: bold;
+        border: none;
+        margin-right: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        &:hover {
+            cursor: pointer;
+            background-color: #1D4080;
+        }
+    }
+}

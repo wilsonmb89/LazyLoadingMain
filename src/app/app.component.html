@@ -1,0 +1,18 @@
+<div id="ppal-container">
+    <div>
+        <h1>Lazy Loading + Submodules Git Demo</h1>
+        <div id="module-1-controls">
+            <h3>Module 1</h3>
+            <button (click)="redirectTo('module-1/m1-page-1')">Module 1 - Page 1</button>
+            <button (click)="redirectTo('module-1/m1-page-2')">Module 1 - Page 2</button>
+            <button (click)="redirectTo('module-1/m1-page-3')">Module 1 - Page 3</button>
+        </div>
+        <div id="module-2-controls">
+            <h3>Module 2</h3>
+            <button (click)="redirectTo('module-2/m2-page-1')">Module 2 - Page 1</button>
+            <button (click)="redirectTo('module-2/m2-page-2')">Module 2 - Page 2</button>
+            <button (click)="redirectTo('module-2/m2-page-3')">Module 2 - Page 3</button>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
