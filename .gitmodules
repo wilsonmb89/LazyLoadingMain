@@ -6,3 +6,7 @@
 	path = src/app/modulo-2
 	url = https://github.com/wilsonmb89/LazyLoadingModulo2.git
 	ignore = all 
+[submodule "src/app/modulo-3"]
+	path = src/app/modulo-3
+	url = https://github.com/wilsonmb89/LazyLoadModule3.git
+	ignore = all
